@@ -8,28 +8,36 @@
     <title>AI Rhyming Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poems</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic for the rhyming poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-      </form>
-    </main>
-    <footer>
-      This AI project is coded by
-      <a href="https://github.com/JenLynX/" target="_blank"> Jen Xamin</a> and
-      is open-sourced on
-      <a href="https://github.com/JenLynX/ai-project-one" target="_blank">
-        Github
-      </a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Rhyming Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic for the rhyming poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Poem here. Poem there. <br />
+          Poems Poems everywhere.
+        </div>
+      </main>
+      <footer>
+        This AI project is coded by
+        <a href="https://github.com/JenLynX/" target="_blank"> Jen Xamin</a> and
+        is open-sourced on
+        <a href="https://github.com/JenLynX/ai-project-one" target="_blank">
+          Github
+        </a>
+      </footer>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
