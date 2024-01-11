@@ -15,19 +15,22 @@
         <h1>AI Rhyming Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a topic for the rhyming poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-choice"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for the rhyming poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-choice"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">example: plants, dogs, riding a bike</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project is coded by
