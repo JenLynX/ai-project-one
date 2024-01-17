@@ -1,6 +1,6 @@
 body {
   background-color: #e5effa;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Cormorant;
 }
 .container {
   margin: 120px auto;
@@ -28,17 +28,19 @@ form {
   line-height: 1.5;
   margin: 5px;
   opacity: 0.6;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: Cormorant;
 }
 
 .instructions {
   padding: 16px;
   border-color: #70859c;
   width: 80%;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 30px;
   line-height: 20px;
   color: #1e2935;
+  font-family: Spectral;
 }
 
 .submit-button {
@@ -50,9 +52,11 @@ form {
   font-size: 16px;
   border-radius: 5px;
   padding: 14px 24px;
+  font-family: Spectral;
 }
 .poem {
   font-size: 16px;
+  font-family: Cormorant;
   background-color: #ecf5fd;
   padding: 20px;
   line-height: 24px;
@@ -69,6 +73,7 @@ footer {
   text-align: center;
   font-size: 12px;
   margin-top: 30px;
+  font-family: Arsenal;
 }
 a {
   color: #376699;
