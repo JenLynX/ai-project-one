@@ -3,7 +3,7 @@ body {
   font-family: Cormorant;
 }
 .container {
-  margin: 120px auto;
+  margin: 60px auto;
   max-width: 600px;
 }
 h1 {
@@ -13,13 +13,21 @@ h1 {
   color: #1d1830;
   text-align: center;
 }
+h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1d1830;
+  opacity: 0.8;
+  text-align: center;
+  padding-bottom: 10px;
+}
 form {
   display: flex;
 }
 .form-container {
-  padding: 25px 12px 15px 12px;
-  background-color: #cfe0f3;
-  border-color: #70859c;
+  padding: 29px 12px 15px 12px;
+  background-color: #d4e3f5;
+
   border-radius: 22px;
   margin-bottom: 30px;
   box-shadow: 0px 10px 20px #b6bdc4;
@@ -31,6 +39,7 @@ form {
   opacity: 0.6;
   font-size: 16px;
   font-family: Cormorant;
+  padding-top: 4px;
 }
 
 .instructions {
@@ -46,7 +55,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #37506b;
+  background: #597797;
   color: #e4effa;
   border: none;
   width: 150px;
@@ -55,12 +64,19 @@ form {
   padding: 14px 24px;
   font-family: Spectral;
 }
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #e4effa;
+  color: #597797;
+}
+
 .poem {
   font-size: 20px;
   font-family: Cormorant;
-  background-color: #ecf5fd;
+  background-color: #e5f0fa;
   padding: 20px;
-  line-height: 24px;
+  line-height: 1.5;
 
   box-shadow: 0px 10px 20px #b6bdc4;
   border-radius: 22px;
